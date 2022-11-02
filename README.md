@@ -32,6 +32,7 @@ const.get(module.DamagePlayer) -- Will print out the constants.
 ```
 
 ### How to use the Upvalue scanner and getter.
+```lua
 local upval = loadstring(game:HttpGet("https://raw.githubusercontent.com/blinxduh/constant-upvalue-scanner-setter/main/UpvalueScanner.lua", true))()
 local module = require(game:GetService("ReplicatedStorage").PlayerHandler)
 
