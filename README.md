@@ -47,7 +47,7 @@ local module = require(game:GetService("ReplicatedStorage").PlayerHandler)
 local val = 4
   
 function abc(n)
-   local x = n * 4
+   local x = n * val
    return x
 end
 
